@@ -9,5 +9,5 @@ ZSH_THEME="half-life"
 plugins=(git zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 export PATH="/opt/homebrew/opt/curl/bin:$PATH"
-eval "$(~/.rbenv/bin/rbenv init - zsh)"
+eval "$(rbenv init - zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
